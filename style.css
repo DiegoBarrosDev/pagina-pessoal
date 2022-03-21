@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'borned';
+    src: url(fontes/Borned.ttf);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #180698,#4013b3, #051A69, #001141, #001141, #030C15)
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255, 0.995);
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px rgb(77, 77, 77);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px ;
+}
+
+.cabecalho__menu i::before{
+    color: #000000;
+    content: "\2261";
+    font-size: 3rem;
+}
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 15vw;
+    height: 300%;
+    font-size: 2rem;
+    z-index: 10;
+
+}
+.menu-lateral--ativo {
+    display: none;
+}
+
+
+
+.icones{
+    
+    width: 2rem;
+}
+
+.principal {
+    width: 100%;
+}
+
+.home {
+    display: flex;
+    width: 100%;
+    background-image: url(img/technology-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 95vh;
+    margin: 0;
+    box-shadow: 0 15px 15px 15px #051A691a;
+}
+
+.conteudo__home {
+    align-self: center;
+}
+
+.titulo{
+    display: flex;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.titulo__home {
+    padding: 0;
+}
+
+.titulo--principal {
+    align-self: center;
+    font-size: 5rem;
+    font-family: 'borned';
+    margin-bottom: 1rem;
+}
+
+.secao{
+    
+    padding: 50px 5px 10px 5px;
+    box-shadow: 5px 5px 5px rgba(77, 77, 77, 0.102);
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.titulo__secao{
+    text-align: left;
+    font-size: 2rem;
+    padding: 20px 10px;
+}
+
+
+.cartao-container {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.cartao {
+    background-color: #ffffff;
+    width: 250px;
+    border-radius: 2px;
+    padding: 5px;
+    height: 300px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.perfil-conteudo{
+    display: flex;
+    align-items: center;
+}
+
+.perfil img{
+    width: 5rem;
+   padding: 0 5px
+   ;
+}
+
+
+
+p{
+   text-align: justify;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+}
