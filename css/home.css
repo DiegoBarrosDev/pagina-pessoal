@@ -32,7 +32,7 @@
         background-image: url(../img/technology-background.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 100%;
+        background-size: cover;
         
         box-shadow: 0 15px 15px 15px #051A691a;
     }
