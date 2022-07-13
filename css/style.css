@@ -1,8 +1,6 @@
-
-
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right, #180698, #4013b3, #051A69, #001141, #001141, #030C15)
+    background: #000000;
 }
 
 a {
@@ -14,27 +12,11 @@ a:hover {
     font-weight: bold;
 }
 
-.principal {
-    width: 100%;
-}
-
-.titulo {
-    display: flex;
-    color: #ffffff;
-    font-weight: 700;
-    padding: 5px;
-}
-
 .secao {
-    padding: 50px 5px 10px 5px;
-
+    padding: 20px 5px 20px 5px;
 }
 
-.secao--cursos {
-    background: #ffffff;
-}
-
-.projetos, .cursos {
+.projetos__conteudo, .cursos {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -42,17 +24,18 @@ a:hover {
     margin: 20px auto;
     max-width: 1000px;
     height: 100vh;
-
 }
 
-.cursos {
-    background-image: linear-gradient(to right, #180698, #4013b3, #051A69, #001141, #001141, #030C15)
+.secao--projetos {
+    background: #d0d0d0;
 }
 
 .secao__titulo {
-    text-align: left;
+    color: #F58815;
+    text-align: center;
     font-size: 2rem;
     padding: 20px 10px;
+    font-weight: 700;
 }
 
 .cartao-container {
@@ -63,7 +46,8 @@ a:hover {
 .cartao {
     background-color: #ffffff;
     width: 250px;
-    border-radius: 2px;
+    border: 2px solid #F58815;
+    border-radius: 5px;
     padding: 5px;
     height: 300px;
     text-align: center;
@@ -82,22 +66,4 @@ a:hover {
     padding: 10px;
     margin: 10px;
     box-shadow: 5px 5px 5px rgba(77, 77, 77, 0.102);
-}
-
-.perfil-conteudo {
-    color: #ffffff;
-    display: flex;
-    align-items: center;    
-    text-align: justify;
-}
-
-.perfil img {
-    width: 5rem;
-    padding: 0 5px;
-}
-
-@media screen and (min-width: 960px) {
-    .titulo{
-        font-size: 2rem;
-    }
 }

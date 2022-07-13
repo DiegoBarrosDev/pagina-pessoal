@@ -1,0 +1,11 @@
+.perfil-conteudo {
+    color: #ffffff;
+    display: flex;
+    align-items: center;    
+    text-align: justify;
+}
+
+.perfil img {
+    width: 5rem;
+    padding: 0 5px;
+}

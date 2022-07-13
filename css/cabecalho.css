@@ -20,3 +20,9 @@
 .cabecalho__icones {
     width: 2rem;
 }
+
+@media screen and (min-width: 960px) {
+    .cabecalho {
+        display: none;
+    }
+}

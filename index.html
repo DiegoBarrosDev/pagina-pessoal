@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diego Barros</title>
+    <meta name="author" content="Diego Barros dos Santos">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Diego Barros, desenvolvedor web">
+    <title>Diego Barros Desenvolvedor WEB</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/menu-lateral.css">
-
+    <link rel="stylesheet" href="css/perfil.css">
 </head>
 
-<body id="home">
+<body>
     <header class="cabecalho">
         <button class="cabecalho__menu"><i></i></button>
 
@@ -24,45 +26,49 @@
             <a href="https://www.linkedin.com/in/diego-barros-420b97a2/" target="_blank" rel="external"><img
                     src="linkedin.png" alt="linkedin" class="cabecalho__icones" id="linkedin"></a>
         </div>
-
     </header>
 
-    <main class="principal">
-        <nav class="menu-lateral menu-lateral--ativo">
-            <a href="#home" class="menu-lateral__itens">Home</a>
-            <a href="#projetos" class="menu-lateral__itens">Meus projetos</a>
-            <a href="#cursos" class="menu-lateral__itens">Meus Cursos</a>
-            <a href="#perfil" class="menu-lateral__itens">Quem eu sou</a>
-        </nav>
-        <section class="home">
-            <div class="conteudo__home">
-                <h1 class="titulo titulo__home titulo--principal">Diego Barros</h1>
+    <nav class="menu-lateral menu-lateral--ativo">
+        <a href="#home" class="menu-lateral__itens">Home</a>
+        <a href="#projetos" class="menu-lateral__itens">Meus projetos</a>
+        <a href="#cursos" class="menu-lateral__itens">Meus Cursos</a>
+        <a href="#perfil" class="menu-lateral__itens">Quem eu sou</a>
+    </nav>
 
-                <h2 class="titulo titulo__home titulo--subtitulo">Front-end Developer</h2>
+    <section class="secao home" id="home">
+        <div class="home__conteudo">
+            <h1 class="home__titulo titulo--principal">Diego Barros</h1>
+            <h2 class="home__titulo titulo--subtitulo">Front-end Developer</h2>
+            <div class="home__botoes">
+                <a href="#projetos" class="home__botao">Projetos</a>
+                <a href="#cursos" class="home__botao">Cursos</a>
+                <a href="#perfil" class="home__botao">Perfil</a>
+                <a href="#perfil" class="home__botao">Contato</a>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <section class="secao" id="projetos">
-
-        <div class="projetos">
-            <h2 class="titulo secao__titulo titulo--projetos">Meus Projetos</h2>
-            <div class="cartao-container">
-                <article class="cartao">
-                    <h3>Projeto 1</h3>
-                    <h4></h4>
-                    <a href="#"><img src="" alt=""></a>
-                </article>
-                <article class="cartao">
-                    <h3>Projeto 2</h3>
-                    <h4></h4>
-                    <a href="#"><img src="" alt=""></a>
-                </article>
-                <article class="cartao">
-                    <h3>Projeto 3</h3>
-                    <h4></h4>
-                    <a href="#"><img src="" alt=""></a>
-                </article>
+    <section class="secao secao--projetos">
+        <div class="projetos" id="projetos">
+            <div class="projetos__conteudo" >
+                <h2 class="secao__titulo titulo--projetos">Meus Projetos</h2>
+                <div class="cartao-container">
+                    <article class="cartao">
+                        <h3>Projeto 1</h3>
+                        <h4></h4>
+                        <a href="#"><img src="" alt=""></a>
+                    </article>
+                    <article class="cartao">
+                        <h3>Projeto 2</h3>
+                        <h4></h4>
+                        <a href="#"><img src="" alt=""></a>
+                    </article>
+                    <article class="cartao">
+                        <h3>Projeto 3</h3>
+                        <h4></h4>
+                        <a href="#"><img src="" alt=""></a>
+                    </article>
+                </div>
             </div>
         </div>
 
@@ -127,7 +133,7 @@
         </div>
     </section>
     <section class="secao perfil" id="perfil">
-        <h2 class="titulo secao__titulo">Quem sou eu?</h2>
+        <h2 class="secao__titulo">Quem sou eu?</h2>
         <article class="perfil-conteudo">
             <img src="img/diego.png" alt="Foto de perfil de Diego">
             <p>Diego Barros nasceu em Recife em 18 de setembro de 1987, formado em Direito pela Universidade Católica de
