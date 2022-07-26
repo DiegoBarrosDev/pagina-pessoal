@@ -39,8 +39,8 @@
     .home {
         background-image: url(../img/black-background.jpg);
         background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
+        background-position: top;
+        background-size: cover;
         height: calc(100vh - 40px);
     }
 
