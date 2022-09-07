@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/menu-lateral.css">
+    <link rel="stylesheet" href="css/projetos.css">
     <link rel="stylesheet" href="css/perfil.css">
+
 </head>
 
 <body>
@@ -41,7 +43,7 @@
             <h2 class="home__titulo titulo--subtitulo">Front-end Developer</h2>
             <div class="home__botoes">
                 <a href="#projetos" class="home__botao">Projetos</a>
-                <a href="#cursos" class="home__botao">Cursos</a>
+                <a href="Currículo-01-09-22.pdf" class="home__botao" target="_blank">Currículo</a>
                 <a href="#perfil" class="home__botao">Perfil</a>
                 <a href="#perfil" class="home__botao">Contato</a>
             </div>
@@ -54,9 +56,11 @@
                 <h2 class="secao__titulo titulo--projetos">Meus Projetos</h2>
                 <div class="cartao-container">
                     <article class="cartao">
-                        <h3>Projeto 1</h3>
-                        <h4></h4>
-                        <a href="#"><img src="" alt=""></a>
+                        <a href="https://github.com/DiegoBarrosDev/alura-studies" target="_blank" class="projetos__link">
+                            <h3 class="projetos__nome">Alura Studies</h3>
+                            <img src="img/alura-studies.png" alt="Alura-studies" class="projetos__imagem">
+                            <p class="projetos__descricao">Lista afazeres com cronômetro criado em React</p>
+                        </a>
                     </article>
                     <article class="cartao">
                         <h3>Projeto 2</h3>
@@ -71,67 +75,8 @@
                 </div>
             </div>
         </div>
-
     </section>
-    <section class="secao secao--cursos" id="cursos">
-        <div class="cursos">
-            <h2 class="titulo secao__titulo titulo--cursos">Cursos realizados</h2>
-            <ul class="cursos__lista">
-                <li class="cursos__item">
-                    <h3>HTML5 e CSS3 parte 1: A primeira página da Web</h3>
-                    <p>Finalizado em 13/10/2021</p>
-                </li>
-                <li class="cursos__item">
-                    <h3>HTML5 e CSS3 parte 2: Posicionamento, listas e navegação</h3>
-                    <p>Finalizado em 14/10/2021</p>
-                </li>
-                <li class="cursos__item">
-                    <h3>HTML5 e CSS3 parte 3: Trabalhando com formulários e tabelas</h3>
-                    <p>Finalizado em 16/10/2021</p>
-                </li>
-                <li class="cursos__item">
-                    <h3>HTML5 e CSS3 parte 4: Avançando no CSS</h3>
-                    <p>Finalizado em 18/10/2021</p>
-                </li>
-                <li class="cursos__item">
-                    <h3>Acessibilidade web: introdução a designs inclusivos</h3>
-                    <p>Finalizado em 19/10/2021</p>
-                </li>
-                <li class="cursos__item">
-                    <h3>HTTP: Entendendo a web por baixo dos panos</h3>
-                    <p>Finalizado em 20/10/2021</p>
-                </li>
-                <li class="cursos__item">
-                    <h3>Acessibilidade web parte 1: Tornando seu front-end inclusivo</h3>
-                    <p>Finalizado em 26/10/2021</p>
-                </li>
-                <li class="cursos__item">
-                    <h3>Lógica de programação I: Os primeiros programas com Javascript e HTML</h3>
-                    <p>Finalizado em 02/12/2021</p>
-                </li>
-                <li class="cursos__item">
-                    <h3>Layouts Responsivos: Trabalhando com layouts mobile</h3>
-                    <p>Finalizado em 04/01/2022</p>
-                </li>
-                <li class="cursos__item">
-                    <h3>CSS: Dispondo elementos com Flexbox e Grid</h3>
-                    <p>Finalizado em 20/01/2022</p>
-                </li>
-                <li class="cursos__item">
-                    <h3>Lógica de programação II: pratique com desenhos, animações e um jogo</h3>
-                    <p>Finalizado em 02/02/2022</p>
-                </li>
-                <li class="cursos__item">
-                    <h3>JavaScript: primeiros passos com a linguagem</h3>
-                    <p>Finalizado em 09/02/2022</p>
-                </li>
-                <li class="cursos__item">
-                    <h3>JavaScript: programando a orientação a objetos</h3>
-                    <p>Finalizado em 19/02/2022</p>
-                </li>
-            </ul>
-        </div>
-    </section>
+    
     <section class="secao perfil" id="perfil">
         <h2 class="secao__titulo">Quem sou eu?</h2>
         <article class="perfil-conteudo">
