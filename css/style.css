@@ -16,16 +16,6 @@ a:hover {
     padding: 20px 5px 20px 5px;
 }
 
-.projetos__conteudo, .cursos {
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px auto;
-    max-width: 1000px;
-    height: 100vh;
-}
-
 .secao--projetos {
     background: #d0d0d0;
 }
@@ -36,29 +26,4 @@ a:hover {
     font-size: 2rem;
     padding: 20px 10px;
     font-weight: 700;
-}
-
-.cartao-container {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.cartao {
-    background-color: #ffffff;
-    width: 250px;
-    border: 2px solid #F58815;
-    border-radius: 5px;
-    padding: 5px;
-    height: 300px;
-    text-align: center;
-    margin: 50px auto;
-}
-
-
-
-.cursos__item {
-    background: #f0f0f0;
-    padding: 10px;
-    margin: 10px;
-    box-shadow: 5px 5px 5px rgba(77, 77, 77, 0.102);
 }
