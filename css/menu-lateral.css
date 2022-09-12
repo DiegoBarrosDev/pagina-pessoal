@@ -1,22 +1,22 @@
 .menu-lateral {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    background-color: rgba(255, 255, 255);
-    width: 50vw;
-    height: 300%;
-    font-size: 2rem;
-    z-index: 10;
-
-}
-
-.menu-lateral--ativo {
     display: none;
 }
 
-@media screen and (min-width: 960px) {
-    .menu-lateral {
-        width: 15vw;
-        background-color: rgba(255, 255, 255, 0.5);
-    }
+.menu-lateral--ativo {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.30);
+    width: 50vw;
+    height: 300%;
+    z-index: 10;;
+}
+
+.menu-lateral__item {
+    background-color: #f5f5f5;
+    margin-top: 10px;
+    color: #F58815;
+    border: 2px solid #F58815;
+    font-size: 1.2rem;
+    padding: 5px;
 }
