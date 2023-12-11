@@ -1,0 +1,27 @@
+.fundo{
+    background: #d9d9d9;
+}
+.navbar{
+    background-color: #d9d9d9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar_item{
+    list-style: none;
+    padding: 10px;
+}
+
+
+@media screen and (min-width: 600px){
+    .navbar{
+        justify-content: end;
+        padding: 0;
+    }
+    .navbar_item{
+        padding: 5px;
+        margin: 0 2% 0 0;
+    }
+}

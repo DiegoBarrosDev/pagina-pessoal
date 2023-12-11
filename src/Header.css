@@ -1,0 +1,56 @@
+.header{
+    background-image: url("../public/images/Imagem.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    
+}
+.header_conteudo{
+    padding: 5px 0 20px 10px;
+}
+.header_titulo{
+    color: #252525;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 4rem 0 1rem;
+    text-align: left;
+}
+.header_subtitulo{
+    color: #252525;
+    text-align: left;
+    margin: 0;
+    width: 70%;
+
+}
+
+@media screen and (max-width: 599.9px) {
+    .navSuperior{
+        display: none;
+    }
+    .introducaoPC{
+        display: none;
+    }
+   
+    
+}
+
+@media screen and (min-width: 600px) {
+    .navInferior{
+        display: none;
+    }
+    .introducaoMobile{
+        display: none;
+    }
+    .header_conteudo{
+        padding: 12% 30px;
+    }
+    .header_titulo, .header_subtitulo{
+        padding-left: 30px;
+    }
+    .header_titulo{
+        font-size: 3rem;
+    }
+    
+}

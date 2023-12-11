@@ -1,0 +1,24 @@
+.fundo{
+    background-color: #d9d9d9;
+    margin: 0;
+}
+.introducao{
+    background-color: #d9d9d9;
+    color: #252525;
+    margin: 0;
+    padding: 30px;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 600px){
+    .fundo{
+        background-color: transparent;
+        
+    }
+    .introducao{
+        background-color: transparent;
+        text-align: left;
+        margin-right: 28%;
+    }
+
+}
